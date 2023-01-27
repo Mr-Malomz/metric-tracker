@@ -41,7 +41,6 @@
         <span class="font-semibold capitalize text-sm">Metrics</span>
       </router-link>
     </nav>
-    <!-- </div> -->
   </div>
 </template>
 
@@ -56,8 +55,6 @@ export default defineComponent({
     ManageIcon,
   },
 });
-
-// console.log(router);
 </script>
 
 <style lang="scss" scoped>
