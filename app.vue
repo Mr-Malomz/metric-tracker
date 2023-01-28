@@ -6,3 +6,15 @@
     </section>
   </div>
 </template>
+
+<script setup>
+import { account } from "./components/utils";
+
+//check session
+onMounted(async () => {
+  account
+    .get()
+    .then()
+    .catch((_) => account.createAnonymousSession());
+});
+</script>
