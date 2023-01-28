@@ -2,12 +2,20 @@
   <div class="mt-20">
     <section class="flex items-center mb-10">
       <h1 class="text-3xl font-bold inline-block mr-4">Metrics</h1>
-      <p class="px-2 text-sm bg-indigo-900 bg-opacity-30 text-indigo-900 rounded-full">
+      <p
+        class="
+          px-2
+          text-sm
+          bg-indigo-900 bg-opacity-30
+          text-indigo-900
+          rounded-full
+        "
+      >
         premium
       </p>
     </section>
-    <Locked v-if="true"/>
-    <section class="flex" v-else>
+
+    <section class="flex" v-if="false">
       <div
         class="
           border
@@ -41,5 +49,6 @@
         <h1 class="text-4xl font-bold">10956367</h1>
       </div>
     </section>
+    <Locked />
   </div>
 </template>
